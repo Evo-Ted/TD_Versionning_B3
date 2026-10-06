@@ -1,0 +1,20 @@
+{
+  "name": "td_versionning_b3",
+  "version": "1.0.0",
+  "description": "Node version : v23.6.0\r Npm version : 10.9.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evo-Ted/TD_Versionning_B3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evo-Ted/TD_Versionning_B3/issues"
+  },
+  "homepage": "https://github.com/Evo-Ted/TD_Versionning_B3#readme"
+}
