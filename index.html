@@ -1,4 +1,13 @@
 <!doctype html>
+<script>
+window.sentryOnLoad = function () {
+Sentry.init({ release: "b3-versioning@1.2.0", environment: "dev" });
+};
+</script>
+<script
+src="https://js-de.sentry-cdn.com/002f7825d0045324b402d18b66a65965.min.js"
+crossorigin="anonymous"
+></script>
 <html lang="fr">
 <head>
     <meta charset="UTF-8"/>
@@ -7,5 +16,6 @@
 </head>
 <body>
     <h1>Hello, World!</h1>
+    <button type="button" onclick="myUndefinedFunction()">Tester Sentry</button>
 </body>
 </html>
